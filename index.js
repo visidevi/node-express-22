@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const app = require("./app");
-const port = 3000;
+const port = process.env.PORT || 3977;
 const url =
   "mongodb+srv://admin:admin@cluster0.7acnc.mongodb.net/mydb?retryWrites=true&w=majority";
 
